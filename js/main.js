@@ -1,12 +1,12 @@
 const btnClicked = document.querySelector("#bgChanger");
 const tooltipWrapper = document.querySelector(".tooltip_wrapper");
 const tooltip = document.querySelector(".content");
-const change = new Audio("../audio/bg.mp3");
+const soundEffect = new Audio("../audio/bg.mp3");
 
 btnClicked.addEventListener("click", () => {
   let randomColor = Math.floor(Math.random() * 16777215).toString(16);
   tooltip.textContent = `Current Color is #${randomColor} !`;
-  change.play();
+  soundEffect.play();
 
   setTimeout(() => {
     document.body.style.backgroundColor = `#${randomColor}`;
