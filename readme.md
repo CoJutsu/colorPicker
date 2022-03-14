@@ -1,4 +1,6 @@
-This is a Color Picker!
+Color Picker!
 
 
-Umm sound effect not working so imagine it...lol!
+Why?
+
+Idk got bored
