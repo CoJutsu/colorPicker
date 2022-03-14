@@ -1,5 +1,4 @@
-Color Picker!
-
+A random color picker!
 
 Why?
 
